@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Paragliding</title>
+  </head>
 
+  <body>
+  
+    <h1>Aviation videos</h1>
+    
+        <p>From powered flight to free flight</p>
+      
+       <video controls width="1098" height="820" poster="assets/plane.jpeg">
+        <source src="assets/IMG_8739.mov" type="video/mp4">
+        <track kind="subtitles" src="assets/subtitles.vtt" srclang="en">
+    </video>
+
+   <h2>Shorehm pics - device responsive</h2>
+    
+        <p>Chop chop</p>
+
+<!-- the art direction swtich srcset below are for iphone portait, landscape, with the fallback for desktop -->
+
+
+<picture>
+  <source media="(max-width: 320px)" srcset="assets/chop-chop-mob-portrait.jpeg">
+    <source media="(max-width: 799px)" srcset="assets/chop-chop-mob-landscape.jpeg">
+   <img src="assets/chop-chop.jpeg" alt="Army Apache">
+</picture>
+
+  
+  </body>
+</html>
